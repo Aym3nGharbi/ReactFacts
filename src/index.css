@@ -1,0 +1,81 @@
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1e1e2f;
+    color: #ffffff;
+}
+
+/* Layout Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url(./assets/ReactBackground.jpg);
+    background-size: cover;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 25px 40px;
+    background: #2d2f3a;
+}
+
+header img {
+    width: 37px;
+}
+
+h2 {
+    font-size: 25px;
+    color: #61dafb;
+}
+
+/* Main Content */
+main {
+    flex: 1;
+    padding: 50px 40px;
+}
+
+main h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #61dafb;
+}
+
+main ul {
+    padding-left: 20px;
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+main li {
+    margin-bottom: 8px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+main ul li::marker {
+    color: #61dafb;
+    font-size: 1.3em;
+    content: "★ ";
+}
+
+/* Footer */
+footer {
+    background: #2d2f3a;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #aaa;
+    border-top: 1px solid #444;
+}

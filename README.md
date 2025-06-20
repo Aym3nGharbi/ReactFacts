@@ -1,12 +1,52 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# ReactFacts – A Simple React + Vite Project
 
-Currently, two official plugins are available:
+Live site: [https://aymen-reactfacts.netlify.app/](https://aymen-reactfacts.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Overview
 
-## Expanding the ESLint configuration
+ReactFacts is a static single-page website built with **React** and **Vite**. It showcases fun facts about the React JavaScript library, styled with custom CSS and hosted on **Netlify**.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Tech Stack
+
+- ⚛️ React (Functional Components)
+- ⚡ Vite (fast dev server & build tool)
+- 🎨 CSS3
+- 🌍 Hosted on Netlify
+
+## 📁 Project Structure
+
+```
+src/
+├── assets/               # Images
+├── Components/           # Header, MainContent, Footer
+├── App.jsx               # Root component
+├── main.jsx              # Entry point
+└── index.css             # Styles
+```
+
+## 🛠️ Setup Instructions
+
+Clone the project and run it locally:
+
+```bash
+git clone https://github.com/your-username/react-facts.git
+cd react-facts
+npm install
+npm run dev
+```
+
+To build for production:
+
+```bash
+npm run build
+```
+
+---
+
+## ✨ Author
+
+**Aymen Gharbi**  
+🔗 [Portfolio](https://aym3ngharbi.github.io/Portfolio/) | 💼 [LinkedIn](https://www.linkedin.com/in/gharbi-aymen/) | 🐱 [GitHub](https://github.com/Aym3nGharbi)
+
+---
